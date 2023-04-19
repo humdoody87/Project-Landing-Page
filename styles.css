@@ -1,0 +1,31 @@
+body {
+
+    
+}
+
+.top-section {
+
+    background-color: black;
+}
+
+h5 {
+
+    color: white;
+    font-style: bold;
+    
+}
+
+ol {
+
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+li {
+
+    margin: 5px;
+
+}
