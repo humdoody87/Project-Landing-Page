@@ -27,5 +27,45 @@ ol {
 li {
 
     margin: 5px;
+    list-style-type: none;
+    display: inline;
 
 }
+
+.lower-top-section {
+
+    color: white;
+    display: inline;
+
+}
+
+.ltst {
+
+    display: inline;
+
+}
+
+button {
+
+    background-color: blue;
+    color: white;
+
+}
+
+.bottom-section {
+
+    display: flex;    
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.quote {
+
+    display: flex;
+    display: wrap;
+
+}
+
