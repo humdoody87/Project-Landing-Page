@@ -8,11 +8,20 @@ body {
     background-color: black;
 }
 
-h5 {
 
+.header {
+
+    display: block;
+
+}
+
+.header-logo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     color: white;
-    font-style: bold;
-    
+
 }
 
 ol {
@@ -35,7 +44,9 @@ li {
 .lower-top-section {
 
     color: white;
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -50,6 +61,15 @@ button {
 
     background-color: blue;
     color: white;
+
+}
+
+.random-info {
+
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
 
 }
 
