@@ -44,23 +44,33 @@ li {
 .lower-top-section {
 
     color: white;
-    display: flex;
-    flex-direction: column;
     
-
-}
+    }
 
 .ltst {
 
+    margin: auto;
     display: inline;
     font-size: 30px;
 
 }
 
-button {
+.first-button {
 
     background-color: blue;
     color: white;
+    display: inline;
+    margin: auto;
+    width: 50px;
+}
+
+.second-button {
+
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
 
 }
 
