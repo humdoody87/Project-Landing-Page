@@ -5,13 +5,15 @@ body {
 
 .top-section {
 
+    display: flex;
     background-color: black;
 }
 
 
 .header {
 
-    display: block;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -21,16 +23,32 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     color: white;
+    font-weight: 900;
+    font-size: larger;
 
 }
 
 ol {
 
     display: flex;
-    list-style-type: none;
     flex-direction: row;
     justify-content: flex-end;
+    list-style-type: none;
+    gap: 16px;
 
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+a {
+
+    text-decoration: none;
 }
 
 li {
@@ -43,15 +61,30 @@ li {
 
 .lower-top-section {
 
+    display: flex;
     color: white;
     
     }
 
-.ltst {
+.ltst2 {
 
     margin: auto;
     display: inline;
     font-size: 30px;
+
+}
+
+.ltsti {
+
+    max-width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    
+}
+
+p {
+
+    
 
 }
 
@@ -61,7 +94,8 @@ li {
     color: white;
     display: inline;
     margin: auto;
-    width: 50px;
+    width: 70px;
+    padding: 5px;
 }
 
 .second-button {
@@ -79,7 +113,7 @@ li {
     display: flex;
     justify-content: center;
     font-size: large;
-    font-weight: bolder;
+    font-weight: 900;
 
 }
 
