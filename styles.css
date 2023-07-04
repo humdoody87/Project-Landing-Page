@@ -88,6 +88,19 @@ p {
 
 }
 
+.lower-middle-section {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text {
+
+    max-width: 150px;
+
+}
+
 .first-button {
 
     background-color: blue;
